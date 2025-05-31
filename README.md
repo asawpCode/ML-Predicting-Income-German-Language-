@@ -5,9 +5,6 @@
 2. [Verwendeter Datensatz](#verwendeter-datensatz)
 3. [Projektstruktur](#projektstruktur)
 4. [Verwendete Technologien](#verwendete-technologien)
-5. [Installation und Ausführung](#installation-und-ausführung)
-6. [Wichtigste Schritte](#wichtigste-schritte)
-7. [Modellergebnisse (Beispiel)](#modellergebnisse-beispiel)
 
 ## Über das Projekt
 
