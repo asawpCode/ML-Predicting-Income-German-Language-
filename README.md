@@ -13,7 +13,7 @@
 
 Dieses Projekt zielt darauf ab, vorherzusagen, ob das jährliche Einkommen einer Person 50.000 US-Dollar übersteigt oder nicht. Hierfür werden demografische Daten aus dem "Adult Census Income" Datensatz verwendet. Es handelt sich um ein binäres Klassifikationsproblem, das mit verschiedenen Machine-Learning-Modellen gelöst wird.
 
-Das primäre Skript (`einkommensvorhersage.py` oder der Name deines Notebooks) führt durch den gesamten Prozess von der Datenaufbereitung über die explorative Datenanalyse bis hin zum Training und der Evaluierung der Modelle.
+Das primäre Skript Adult_Income_Prediction.py führt durch den gesamten Prozess von der Datenaufbereitung über die explorative Datenanalyse bis hin zum Training und der Evaluierung der Modelle.
 
 ## Verwendeter Datensatz
 
@@ -21,12 +21,23 @@ Der für dieses Projekt verwendete Datensatz ist der "Adult Census Income" Daten
 Die Datendatei `adult.data` wird für die Ausführung des Skripts benötigt.
 
 **Merkmale (Beispiele):**
-* Alter (`age`)
-* Bildungsgrad (`education`)
-* Beruf (`occupation`)
-* Arbeitsstunden pro Woche (`hours-per-week`)
-* Geschlecht (`sex`)
-* Herkunftsland (`native-country`)
-* Einkommen (`income`): Die Zielvariable (<=50K oder >50K)
+* `age`
+* `education`
+* `occupation`
+* `hours-per-week`
+* `sex`
+* `native-country`
+* `income`: Die Zielvariable (<=50K oder >50K)
 
 ## Projektstruktur
+├── Adult_Income_Prediction.py
+├── adult.data             
+└── README.md             
+
+## Verwendete Technologien
+
+* **Python 3.x**
+* **Pandas:** Für Datenmanipulation und -analyse
+* **Scikit-learn:** Für Machine-Learning-Algorithmen, Modelltraining und -evaluierung
+* **Matplotlib & Seaborn:** Für Datenvisualisierung
+
